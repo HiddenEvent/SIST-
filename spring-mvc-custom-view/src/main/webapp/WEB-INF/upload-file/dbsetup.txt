@@ -1,0 +1,25 @@
+-- login as root
+
+create database spring5fs;
+
+create table member (
+	id int auto_increment primary key,
+	email varchar(255),
+	password varchar(100),
+	name varchar(100),
+	regdate datetime,
+	unique key (email)
+) engine=InnoDB character set = utf8;
+
+create user spring5@localhost identified by "spring5"
+create user spring5@"%" identified by "spring5"
+
+grant all privileges on spring5fs.* to spring5@localhost;
+grant all privileges on spring5fs.* to spring5@"%";
+
+-- login as spring5
+
+use spring5fs;
+
+insert into member (email, password, name, regdate)
+values ('madvirus@madvirus.net', '1234', 'cbk', now());

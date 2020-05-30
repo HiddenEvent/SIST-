@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource" destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://211.197.18.246:3306/demoweb?characterEncoding=utf8" />
+		<property name="username" value="devuser" />
+		<property name="password" value="mariadb" />
+		
+		<property name="initialSize" value="2" />
+		<property name="maxActive" value="10" />
+		<property name="testWhileIdle" value="true" />
+		<property name="minEvictableIdleTimeMillis" value="180000" />
+		<property name="timeBetweenEvictionRunsMillis" value="10000" />
+	</bean>
+	
+	<bean id="jdbcTemplate"
+		  class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+	</bean>
+	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory"/>
+	</bean>
+	
+	<bean id="memberService"
+		  class="com.demoweb.service.MemberService">
+		<property name="memberDao" ref="memberDao" />
+	</bean>
+	
+	<bean id="memberDao"
+		  class="com.demoweb.dao.MemberDao">
+		<property name="jdbcTemplate" ref="jdbcTemplate" />
+		<property name="sqlSessionTemplate" ref="sqlSessionTemplate"></property>
+	</bean>
+
+</beans>
