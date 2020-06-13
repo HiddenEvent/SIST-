@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c2da80c3-6354-4100-b43a-37cef7dfaba0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servers/Tomcat v9.0 Server at localhost-config/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-demoweb-starter/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-demoweb-starter/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-demoweb-starter2/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-demoweb-starter2/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc-demoweb-starter3/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-demoweb-starter3/target/m2e-wtp/web-resources/META-INF/maven/com.demoweb/mvc-demoweb/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap12-bv/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-bv/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap12-bv/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-bv/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap12-gl/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-gl/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap12-gl/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-gl/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap12-xml/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap12-xml/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap12/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap12/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap12/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap13-xml/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap13-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap13-xml/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap13-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap13/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap13-xml/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap13/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap13-xml/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp5-chap14/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap14/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sp5-chap14/target/m2e-wtp/web-resources/META-INF/maven/sp5/sp5-chap14/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-custom-view/target/m2e-wtp/web-resources/META-INF/maven/com.springexample/customview/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-custom-view/target/m2e-wtp/web-resources/META-INF/maven/com.springexample/customview/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cveDagUS7BVj7aJqPq2GyTKjIf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2da80c3-6354-4100-b43a-37cef7dfaba0" name="Default Changelist" comment="" />
+      <created>1591413375257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591413375257</updated>
+    </task>
+    <servers />
+  </component>
+</project>

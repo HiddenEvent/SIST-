@@ -21,7 +21,7 @@
 		<form-login 
 			login-page="/login" 
 			username-parameter="memberId" password-parameter="passwd" 
-			default-target-url="/home" /> <!-- 아예 처음부터 로그인을 클릭해서 들어온 경우 경로 설정해주는 것  -->
+			default-target-url="/home" /> <!-- 아예 처음부터 로그인을 클릭해서 들어온 경우 경로 설정해주는 것 / 아닌경우 -->
 		<access-denied-handler error-page="/access-denied" />
 		<logout 
 			logout-url="/logout" 

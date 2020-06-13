@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<description>Example configuration to get you started.</description>
+
+	<context:component-scan base-package="com.springexample.aop" />
+	
+	<bean id="testA" class="com.springexample.aop.TestA" />
+	<bean id="testB" class="com.springexample.aop.TestB" />
+	<bean id="logger" class="com.springexample.aop.Logger" />
+	
+	<aop:config>
+	
+		<aop:pointcut expression="execution(* *..*A.*(..))" id="pointcutA1" />
+		<aop:pointcut expression="execution(* *..*B.*(..))" id="pointcutB1" />
+		<aop:pointcut expression="bean(testA)" id="pointcutA2" />
+		<aop:pointcut expression="within(*..*B)" id="pointcutB2" />
+		<aop:pointcut expression="bean(testA) || within(*..*B)" id="pointcutAll" />
+	
+		<aop:aspect id="loggingAspect" ref="logger">
+		
+			<aop:pointcut expression="execution(* *..*A.*(..))" id="pointcutA" />
+			<aop:pointcut expression="execution(* *..*B.*(..))" id="pointcutB" />
+			
+			<!-- <aop:before method="logBefore" pointcut-ref="pointcutA2" /> -->
+			<!-- <aop:after method="logAfter" pointcut-ref="pointcutB2"/> -->
+			<aop:around method="logAround" pointcut="execution(* *..*.*(..))" /> <!-- 직접 pointcut 설정 -->
+		
+		</aop:aspect>
+	
+	</aop:config>
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
